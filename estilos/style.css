@@ -100,8 +100,8 @@ main.clicado {
 
 div#rescc {
     display: flex;
-    max-width: 80%;
-    width: 80vw;
+    max-width: 400px;
+    width: 100vw;
     height: 200px;
     border-radius: 40px;
     background-color: white;
@@ -117,7 +117,8 @@ div#rescc {
 
 main > button {
     border: none;
-    max-width: 40%;
+    max-width: 300px;
+    width: 100vw;
     height: 80px;
     font-size: 2.1em;
     background-color: rgb(255, 0, 0);
@@ -132,10 +133,4 @@ main > button {
 main > button.clicado{
     scale: 0.96;
     box-shadow: 0px 5px 1px rgba(109, 3, 3, 0.548);
-}
-
-@media screen and (max-width: 768px) {
-    main {
-        scale: 0.70;
-    }
 }
