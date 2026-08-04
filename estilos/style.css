@@ -29,6 +29,7 @@ header > h1 {
 }
 
 header > p#contador {
+    font-size: 1.3em;
     color: white;
     transition: scale 0.5s, animation 0.5s;
 }
@@ -135,9 +136,21 @@ main > button.clicado{
     box-shadow: 0px 5px 1px rgba(109, 3, 3, 0.548);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     main {
-        max-width: 300px;
-        width: 72vw; 
+        max-width: 280px;
+        width: 60vw; 
+    }
+
+    div#rescc {
+        width: 60vw;
+        height: 120px;
+        font-size: 3.5em;
+    }
+
+    main > button {
+        width: 48vw;
+        font-size: 1.2em;
     }
 }
+

@@ -27,7 +27,7 @@ function clicker() {
         respostadiv.style.boxShadow = '1px 5px 1px #81801d'
     }
 
-    contador.innerHTML = `CARA: ${caraV}<br>COROA: ${coroaV}`
+    contador.innerHTML = `CARA: ${caraV} COROA: ${coroaV}`
 
     setTimeout(() => {
         document.getElementById('main').classList.remove('clicado')
