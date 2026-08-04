@@ -134,3 +134,10 @@ main > button.clicado{
     scale: 0.96;
     box-shadow: 0px 5px 1px rgba(109, 3, 3, 0.548);
 }
+
+@media screen and (max-width: 768px) {
+    main {
+        max-width: 300px;
+        width: 72vw; 
+    }
+}
