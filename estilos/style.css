@@ -100,7 +100,7 @@ main.clicado {
 
 div#rescc {
     display: flex;
-    max-width: 400px;
+    max-width: 400px; /**/
     width: 100vw;
     height: 200px;
     border-radius: 40px;
